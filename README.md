@@ -1,7 +1,7 @@
 # 42Bangkok-Piscine-3nd
 
 [![last-commit](https://img.shields.io/github/last-commit/sirawit-suk/42Bangkok-Piscine-3nd?logo=github&logoColor=white)](https://github.com/sirawit-suk/42Bangkok-Piscine-3nd) 
-### Version V1.0.0
+### Version V1.0.1
 ### This is a help from my little hand
 
 Makefile : this is the file that keep all command in it.
@@ -25,6 +25,13 @@ Tips and Note:
 - Try to understand of Makefile do... you will see that this will save a lot of time.
 - Moulinette DON'T check other file, it's ok if you push other file to repository for checking, result will be OK. (Focus on file Turn in)
 - Norminette too, there check only file that Turn in.
+- Makefile usually start with 'M' because it will appear first of directory (makefile will also work too) [What Name to Give Your Makefile](https://www.gnu.org/software/make/manual/html_node/Makefile-Names.html#Makefile-Names)
+
+More Detail about Makefile 
+- [What is a Makefile and how does it work?](https://opensource.com/article/18/8/what-how-makefile)
+- [Makefile Tutorial - Advanced | Automatic Dependency Tracking, Variables, and Pattern Rules](https://www.youtube.com/watch?v=PiFUuQqW-v8&t=1s&ab_channel=Competer)
+- [Chapter 3. Variables and Macros](https://www.oreilly.com/library/view/managing-projects-with/0596006101/ch03.html)
+- [How to write a Makefile](https://github.com/amjadmajid/Makefile)
 
 Others:
 - @echo the '@' is mean hidden, don't print command out (but run the command normally)
