@@ -1,7 +1,7 @@
 # 42Bangkok-Piscine-3nd
 
 [![last-commit](https://img.shields.io/github/last-commit/sirawit-suk/42Bangkok-Piscine-3nd?logo=github&logoColor=white)](https://github.com/sirawit-suk/42Bangkok-Piscine-3nd) 
-### Version V1.0.1
+### Version v1.0.2
 ### This is a help from my little hand
 
 Makefile : this is the file that keep all command in it.
@@ -23,6 +23,7 @@ Detail:
 
 Tips and Note:
 - Try to understand of Makefile do... you will see that this will save a lot of time.
+- Don't forget to change parameter and header (F1) of function file after make rename.
 - Moulinette DON'T check other file, it's ok if you push other file to repository for checking, result will be OK. (Focus on file Turn in)
 - Norminette too, there check only file that Turn in.
 - Makefile usually start with 'M' because it will appear first of directory (makefile will also work too) [What Name to Give Your Makefile](https://www.gnu.org/software/make/manual/html_node/Makefile-Names.html#Makefile-Names)
