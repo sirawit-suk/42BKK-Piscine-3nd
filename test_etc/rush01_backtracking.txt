@@ -1,0 +1,55 @@
+
+  		main()
+		
+		check input (Check error)
+
+		insert number (one by one) if fail -> increment (1..4) 
+		recursive logic backtracking
+		1. check row (not same)
+		2. check column (not same)
+                
+                3. check constraint row (only 4 number row already)
+                4. check constraint column (only 4 number column already)
+			
+		print_array2D();
+  
+
+recursive(num, 0, 0, 4)
+
+recursive(num[][],i,j, n)
+	
+	int k = 1;
+	while(k <= n){
+		num[i][j] = k;
+
+		//end case finish (pass)
+		if(i == 3 && j == 3 && all_check() == true)
+			return;
+
+		if(j != 3 && check_row_same() && check_column_same())
+			recursive(num, i, j+1);
+
+		else if(j == 3 && check_row_same() && check_column_same())
+			recursive(num, i+1, 0);
+
+		else if(check_row_same() == false || check_column_same() == false)
+		{
+			if(k == 4)
+				return;
+			k++;
+		}
+	}
+	return;
+1 2 3 4 
+2 3 4 1
+3 4 1 2
+4 1 2 3
+
+
+
+
+
+
+
+
+
